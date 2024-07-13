@@ -6,7 +6,7 @@ function App(): ReturnType<React.FC> {
   useEffect(() => setCount(2), []);
   
   return (
-    <div className='text-center text-red-500 text-2xl w-screen h-screen bg-bgDark font-title'>
+    <div className='text-center text-red-500 text-2xl w-screen h-screen bg-bgColor text-textColor font-primary'>
       <h1>Here is the count: {count}</h1>
     </div>
   );

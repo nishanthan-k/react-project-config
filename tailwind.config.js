@@ -12,6 +12,8 @@ const config = {
       'bgDark': '#121212',
       'slateDark': '#020617',
       'bgLight': '#FFFFFF',
+      'textDark': '#000000',
+      'textLight': '#ffffff'
     },
     extend: {
       fontFamily: {
