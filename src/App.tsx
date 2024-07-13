@@ -6,8 +6,8 @@ function App(): ReturnType<React.FC> {
   useEffect(() => setCount(2), []);
   
   return (
-    <div className='text-center text-red-500 text-2xl'>
-      <h1>`Here is the count: ${count}`</h1>
+    <div className='text-center text-red-500 text-2xl w-screen h-screen bg-bgDark font-title'>
+      <h1>Here is the count: {count}</h1>
     </div>
   );
 }
